@@ -1,0 +1,135 @@
+/*
+code by Poorfish
+poorfish@163.net
+03-Jun-2004
+to see a world in a grain of sand
+*/
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #414141;
+}
+body,td,input,select,textarea { color: gray;font-size:12px;font-family: verdana;}
+form { margin:0px}
+textarea { border: 1px solid #CCCCCC; width:80%; background-image:url(images/popo.gif); background-position:bottom right; background-repeat:no-repeat}
+pre { margin: 0px}
+
+A { TEXT-DECORATION: none}
+A:link { COLOR: #2455BF}
+A:visited { COLOR: #2455BF}
+A:hover { COLOR: #000000}
+A:active { COLOR: #000000}
+
+A.head { font-size:14px; font-weight:bold} /* ���������� */
+A.head:link { COLOR: #999999}
+A.head:visited { COLOR: #999999}
+A.head:hover { COLOR: #9E0B0E}
+A.head:active { COLOR: #9E0B0E}
+
+A.left { font-size:13px} /* �˵������� */
+A.left:link { COLOR: #999999}
+A.left:visited { COLOR: #999999}
+A.left:hover { COLOR: #000000}
+A.left:active { COLOR: #000000}
+
+A.white { font-size:12px; font-weight:normal} /* ��ɫ���� */
+A.white:link { COLOR: #FFFFFF}
+A.white:visited { COLOR: #FFFFFF}
+A.white:hover { COLOR: #FF0000}
+A.white:active { COLOR: #FF0000}
+
+.nav { /* ������ */
+	width: 100px;
+	border-left: 1px solid #DCDCDC;
+}
+.nav1 { /* ������״̬2 */
+	background-color:#FFFFFF;
+	width: 100px;
+        border-left: 1px solid #DCDCDC;
+}
+.navColor { background-color:#9E0B0E; color:#FFFFFF; font-weight:bold; text-align:center} /* ��������ɫ�� */
+.topline { background-color:#000000} /* ������ */
+.shadow { background-color:#B5B5B5} /* ��������Ӱ */
+.left_title { background-color:#A69784}	/* ��������ɫ�� */
+.left_line {	/* �����ָ�����߾� */
+	border-right: 1px solid #E8E8E8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.menubg { background-color:#F2F2F2}	/* �˵�������ɫ */
+.menu_margin { margin:10px; background-color: #FFFFFF;}	/* �˵���߾�������ɫ */
+.menu1 {	/* �˵���״̬һ */
+	background-color: #F5F0E9;
+	text-align: center;
+	height: 28px;
+	font-size: 13px;
+}
+.menu2 {	/* �˵���״̬�� */
+	background-color: #FFFFFF;
+	text-align: center;
+	height: 28px;
+	font-size: 13px;
+}
+.main_pad {	/* ������߾� */
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.main_topline  { background-color: #F2F2F2 }	/* �����򶥲��� */
+.table_border  { background-color: #F2F2F2 }	/* ���ݱ��߿� */
+
+.table_bg { background-color: #FFFFFF; }	/* ���ݱ����� */
+.table_bghot {
+	background-color: #FFFD9D;
+}
+
+.table_title { font-weight: bold; font-size:13px}	/* ���ݱ������� */
+
+.table_border2 { background-color: #C0C0C0 }	/* ���ݱ��߿� */
+.table_title2 {
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #F2F2F2;
+}
+.sch_date1, .sch_overtime { /* holiday, overtime */
+	background-color:#E4F6FF;
+}
+.sch_date2 { /* today */
+	color : red
+}
+.sch_date3 { /* today and holiday */
+	background-color:#E4F6FF;
+	color : red
+}
+.sch_delay {
+	background-color:#FF0000
+}
+.sch_memo {
+}
+.sch_log {
+	margin: 10px;
+}
+.button {	/* ��ť */
+	background-color:#F2F2F2; 
+	border-top: 1px solid #F7F7F7; 
+	border-left: 1px solid #F7F7F7; 
+	border-bottom: 1px solid #CECECE;
+	border-right: 1px solid #CECECE;
+}
+.input { border: 1px solid #CCCCCC}
+.stest { font-size:9px}
+.title { color:black; font-size:14px; font-weight:bold}
+.red {       /* ��ɫ��ʾ���� */
+	color: red;
+	font-weight: bold;
+}
+.rolelist {	/* ��Ա�б�  */
+	padding: 5px;
+	background-color: #E4F6FF;
+}
+.error {	/* ������Ϣ */
+	color: red;
+	padding-top: 80px;
+	text-align: center;
+}
